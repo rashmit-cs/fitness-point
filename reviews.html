@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Reviews | Fitness Point Gym, Ponda Goa</title>
+<meta name="description" content="Member reviews of Fitness Point Gym, Ponda. Leave your own review.">
+<link rel="icon" href="img/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head><body>
+<div id="hdr"></div>
+
+<div class="pagehead"><div class="wrap"><span class="eyebrow">Reviews</span><h1 style="font-size:clamp(2.4rem,6vw,4.4rem)">What members say</h1><p class="lead">Real feedback from real members. Only genuine reviews appear here.</p></div></div>
+<section><div class="wrap split" style="align-items:start">
+  <div><h2>Leave a review</h2><p class="lead">Trained with us? Tell others how it went.</p>
+  <form id="rvForm" style="margin-top:10px">
+    <label>Your name</label><input name="n" required maxlength="40">
+    <label>Rating</label>
+    <div class="stars"><input type="radio" name="s" id="s5" value="5"><label for="s5">★</label><input type="radio" name="s" id="s4" value="4"><label for="s4">★</label><input type="radio" name="s" id="s3" value="3"><label for="s3">★</label><input type="radio" name="s" id="s2" value="2"><label for="s2">★</label><input type="radio" name="s" id="s1" value="1"><label for="s1">★</label></div>
+    <label>Your experience</label><textarea name="t" required maxlength="400"></textarea>
+    <p style="margin-top:18px"><button class="btn" type="submit">Post review</button> <span id="rvMsg" class="note"></span></p>
+  </form>
+  <p class="note">Developer note: reviews are saved in the visitor's own browser for now. To show everyone's reviews, connect a backend or form service. You can also paste genuine reviews from Google or Instagram into this page.</p></div>
+  <div><h2>Member reviews</h2><div class="grid g1" id="rvList" style="display:grid;gap:16px;margin-top:24px"></div></div>
+</div></section>
+<div id="ftr"></div>
+<script src="js/main.js"></script>
+</body></html>
